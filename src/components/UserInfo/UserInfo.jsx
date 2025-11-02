@@ -2,7 +2,7 @@ import './UserInfo.scss';
 
 export const UserInfo = ({ user }) => {
   if (!user) {
-    return null; // або якийсь fallback
+    return null;
   }
 
   return (
